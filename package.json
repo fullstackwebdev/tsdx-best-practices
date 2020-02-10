@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "license": "MIT",
+  "license": "unlicensed",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -36,6 +36,18 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
+    "@babel/plugin-transform-object-assign": "^7.8.3",
+    "@types/chai": "^4.2.8",
+    "@types/chai-as-promised": "^7.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.19.1",
+    "@typescript-eslint/parser": "^2.19.1",
+    "babel-core": "^6.26.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.0"
   }
